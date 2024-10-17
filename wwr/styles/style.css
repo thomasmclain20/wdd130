@@ -1,6 +1,135 @@
-/* Reset default styles */
-body {
-   
+#content img {
+    max-width: 100px; /* Adjust this value as needed */
+    width: 100%; /* This will make the image responsive */
+    margin: 0 auto; /* This will center the image */   
+}
+nav a{
+    text-align:center;
 }
 
-/* Add your custom styles here */
+#hero-msg h1, #hero-msg h4{
+    text-align:center;
+}
+
+.button-box{
+    text-align:center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height:725 px;
+}
+
+:root {
+    --primary-color: #6C757D;
+    --secondary-color: #CED4DA;
+    --accent1-color: #495057;
+    --accent2-color: white;
+    --headline-color-on-white: #6C757D;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #CED4DA;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #495057;
+    --nav-link-color: #396E94;
+    --nav-background-color: #6C757D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+  }
+  
+  header {
+    background-color: var(--secondary-color);
+  }
+  
+  nav a:hover {
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  .join:hover {
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  #background {
+    background-color: var(--accent1-color);
+  }
+  
+  .msg {
+    background-color: var(--paragraph-background-color);
+  }
+  
+  footer {
+    background-color: var(--nav-background-color);
+  }
+
+  #hero-img {
+    display: block;
+    margin: auto;
+}
+
+body {
+    color: var(--paragraph-color-on-white);
+}
+
+header {
+    color: var(--headline-color-on-color);
+}
+
+nav a {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+}
+
+.join:hover {
+    color: var(--nav-hover-link-color);
+}
+
+#background {
+    color: var(--paragraph-color-on-color);
+}
+
+.msg {
+    color: var(--paragraph-color-on-color);
+}
+
+footer {
+    color: var(--headline-color-on-color);
+}
+
+logo_link{
+    width:80px;
+}
+
+icon{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+    height: auto;
+}
+
+.book, .join{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+    text-decoration : underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
