@@ -1,11 +1,15 @@
+@import url('https://www.cssfontstack.com/Geneva');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 .nav a{
     text-align: center;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
 }
 
 .nav a:hover {
@@ -27,6 +31,9 @@
 
 .home-title {
     color: #d9c2a3;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box {
@@ -44,10 +51,20 @@ main section {
 
 body {
     background-color: #fcfbfb; 
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+.h2{
+    margin:0;
+}
+
 header {
     background-color:rgba(20,30,13, .7);
 }
+
 nav a:hover {
     background-color: black;
 }
@@ -56,12 +73,22 @@ nav a:hover {
     background-color:rgba(20,30,13, .7);
     color: #d9c2a3;
     text-decoration: none;
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color:grey;
     color: #d9c2a3;
     text-decoration: none;
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -76,19 +103,26 @@ nav a:hover {
 
 .msg {
     background-color:rgba(20,30,13, .7);
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .footer {
     background-color:rgba(20,30,13, .7);
     color : #d9c2a3;
+    padding: 25px 50px;
 }
 
 .msg h2 {
     color: #d9c2a3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .msg p{
     color: #d9c2a3;
+    font-size : .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
@@ -102,6 +136,7 @@ footer a:hover{
 
 footer p {
     font-size: 1.2em;
+    margin-top: 200px;
 }
 
 footer p a:hover {
@@ -110,4 +145,33 @@ footer p a:hover {
 
 .icon {
     width : 80px;
+    padding-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin:200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+
+.main section img {
+    box-sizing: border-box;
 }
