@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        #hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+        #hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        main {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .social img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/emulationcity.png" alt="Emulation City Logo">
+            </a>
+            <nav>
+                <a href="main-page.html">Home</a>
+                <a href="#">Page 2</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/modding.jpg" alt="Unlocking the secrets to complete freedom">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Take Back Your Childhood</h1>
+                <h4>reconnect with Emulation City</h4>
+                <div class='button-box'>
+                    <a class='book' href="contactus.html">Download Now</a>
+                </div>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="card">
+                <img class="controler-img" src="images/controlers.jpg" alt="video game controlers">
+                <img class="icon" src="images/easypeasy.png" alt="Anyone can do it">
+                <h2>Anyone can do it!</h2>
+            </section>
+            <section class="card">
+                <img class="card-img" src="images/relaxedgaming.png" alt="money free">
+                <img class="icon" src="images/controller_icon.png" alt="controller icon">
+                <h2>Game without worry of money</h2>
+            </section>
+            <section class="card">
+                <img class="card-img" src="images/coding.png" alt="Code">
+                <img class="icon" src="images/computer_icon.png" alt="computer icon">
+            </section>
+        </main>
+        <footer>
+            <p>Emulation City &copy; 20XX - Your First and Last Name Here</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
