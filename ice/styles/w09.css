@@ -39,14 +39,22 @@ h1{
     margin: 0 auto;
 }
 
-.bottom{
+.bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #3f5b8a;
     color: white;
     padding: 10px;
+    grid-gap: 10px; /* Adds space between grid items */
+    border-bottom-left-radius: 10px; /* Adjust this value to match the header's border-radius */
+    border-bottom-right-radius: 10px; /* Adjust this value to match the header's border-radius */
 }
 
 .bottom > div {
     height: 100%;
+    border-right: 1px solid white; /* Adds a right border to each grid item */
+}
+
+.bottom > div:last-child {
+    border-right: none; /* Removes the right border from the last grid item */
 }
