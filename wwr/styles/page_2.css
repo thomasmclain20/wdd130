@@ -6,7 +6,6 @@
 }
 
 
-
 .nav a{
     text-align: center;
     color: #d9c2a3;
@@ -136,6 +135,7 @@ nav a:hover {
     background-color: green;
     color: #d9c2a3;
 }
+
 
 .msg {
     background-color:rgba(20,30,13, .7);

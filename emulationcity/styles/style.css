@@ -51,7 +51,7 @@ header {
     background-color: var(--secondary-color);
 }
 
-hero-msg {
+.hero-msg {
     text-align center;
 }
 
