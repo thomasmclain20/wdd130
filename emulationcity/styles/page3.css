@@ -1,0 +1,149 @@
+/* Importing the Press Start 2P font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+    color: #495057; /* Text color */
+    background-color: #f8f9fa; /* Background color */
+    padding: 0 10px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center; /* Align vertically */
+    justify-content: space-between; /* Space between logo and nav */
+    background-color: #343a40; /* Dark header background */
+    color: #f8f9fa; /* Light text */
+    padding: 10px 20px;
+    position: relative;
+}
+
+header #logo_link img {
+    width: 100px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center navigation links horizontally */
+    gap: 20px; /* Add space between the links */
+    width: 100%; /* Ensure it spans the full width of the header */
+    position: relative; /* Allow proper centering */
+}
+
+header nav a:hover {
+    background-color: #495057;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e9ecef; /* Light gray */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#hero-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#hero-msg h1 {
+    margin: 15px 0;
+    font-size: 2rem;
+    color: #212529;
+}
+
+#hero-msg h4 {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Content Section */
+
+
+#content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Section Layout */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.section:nth-child(even) img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.section h1, .section h2 {
+    color: #212529;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 0;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+footer .social a img {
+    width: 24px;
+    margin: 0 5px;
+}
